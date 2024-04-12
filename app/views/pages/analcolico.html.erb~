@@ -2,4 +2,4 @@
 <%= button_to "Frutta", frutta_path, method: :get, class: "btn btn-primary" %>
 <%= button_to "Latte di mandorla", lattemandorla_path, method: :get, class: "btn btn-primary" %>
 <%= button_to "Soda", soda_path, method: :get, class: "btn btn-primary" %>
-<%= button_to "Gelato", gelato_path, method: :get, class: "btn btn-primary" %>
+<%= button_to "Gelato", method: :get, class: "btn btn-primary" %>

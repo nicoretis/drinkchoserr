@@ -1,0 +1,6 @@
+<h1>Scelte possibili</h1>
+<%= button_to "Maso Antico", "#", method: :get, class: "btn btn-primary" %>
+<%= button_to "Delicatone", "#", method: :get, class: "btn btn-primary" %>
+<%= button_to "Virgin Mojito", "#", method: :get, class: "btn btn-primary" %>
+
+

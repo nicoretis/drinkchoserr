@@ -1,0 +1,15 @@
+<h1>Scelte possibili</h1>
+<%= button_to "Fragola Lime", "#", onclick: "saveSelection('Fragola Lime')", class: "btn btn-primary" %>
+<%= button_to "Fragola Banana", "#", onclick: "saveSelection('Fragola Banana')", class: "btn btn-primary" %>
+<%= button_to "Banana Lampone", "#", onclick: "saveSelection('Banana Lampone')", class: "btn btn-primary" %>
+<%= button_to "Lampone Mirtillo", "#", onclick: "saveSelection('Lampone Mirtillo')", class: "btn btn-primary" %>
+<%= button_to "Mango Passion", "#", onclick: "saveSelection('Mango Passion')", class: "btn btn-primary" %>
+<%= button_to "Mango Lampone Lime", "#", onclick: "saveSelection('Mango Lampone Lime')", class: "btn btn-primary" %>
+<%= button_to "Ananas Cocco Lampone", "#", onclick: "saveSelection('Ananas Cocco Lampone')", class: "btn btn-primary" %>
+
+<script>
+  function saveSelection(selection) {
+    sessionStorage.setItem('userSelection', selection);
+    console.log(selection);
+  }
+</script>

@@ -7,4 +7,18 @@ class PagesController < ApplicationController
   
   def analcolico
   end
+  
+  def frutta
+    @user_selection = session[:userSelection]
+  end
+
+  
+  def soda
+  end
+  
+  def lattemandorla
+  end
+  
+  def gelato
+  end
 end
