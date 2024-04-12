@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'pages/home'
   get 'freddo', to: 'pages#freddo'
   get 'analcolico', to: 'pages#analcolico' 
 
