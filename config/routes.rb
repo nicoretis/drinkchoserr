@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :drinks
   get 'freddo', to: 'pages#freddo'
   get 'analcolico', to: 'pages#analcolico'
   get 'frutta', to: 'pages#frutta'
